@@ -5,16 +5,18 @@
 	"Description": "",
 	"Plugins": [
 		{
-			"Name": "DatasmithC4DImporter",
+			"Name": "OculusOpenXR",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
+				"Win32",
 				"Win64",
-				"Mac"
+				"Android"
 			]
 		}
 	],
 	"TargetPlatforms": [
 		"PS4",
-		"WindowsNoEditor"
+		"WindowsNoEditor",
+		"WindowsNoEditorWin32"
 	]
 }
